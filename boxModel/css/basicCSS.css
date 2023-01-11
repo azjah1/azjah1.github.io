@@ -17,5 +17,9 @@
 }
 
 .quote {
-    margin-left: 24px;
+    padding-left: 36px;
+}
+
+.quoteCitation {
+    margin: 20px;
 }
