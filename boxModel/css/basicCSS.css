@@ -1,0 +1,21 @@
+#main {
+    background-color: #e6e6fa;
+    margin: 50px;
+    padding: 50px;
+}
+
+#content {
+    border: 5px solid #040e53;
+    background-color: #6b5acd;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+#content div {
+    padding: 10px 0;
+}
+
+.quote {
+    margin-left: 24px;
+}
