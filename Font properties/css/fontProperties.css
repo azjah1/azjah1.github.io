@@ -1,0 +1,37 @@
+
+#p1  {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-small;
+}
+
+#p2 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+#p3 {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+/* 
+the five basic fallback font families are: 
+serif, san-serif, monospace, cursive, fantasy
+*/
+
+#p4 {
+    font-weight: 800;
+    color: aquamarine;
+}
+
+#p5 { 
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#p6 {
+    font-kerning: inherit;
+    font-weight: bolder;
+}
