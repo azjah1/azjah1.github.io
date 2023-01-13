@@ -1,5 +1,19 @@
 img{
-    width: 150px;
+    width: 200px;
     float: right;
     margin: 30px;
+}
+#sidebar {
+   text-align: right;
+}
+
+#contents {
+    background-color: rgb(214, 214, 214);
+    color: rgb(69, 69, 253);
+    width: 300px;
+    
+}
+
+#contents h4{
+    text-align: center;
 }
