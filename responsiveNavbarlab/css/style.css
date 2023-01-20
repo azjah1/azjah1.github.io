@@ -16,7 +16,7 @@ nav > ul{
 
 nav > ul >li{
     padding: 12px;
-
+    transition: background-color: 0.5s;
 }
 
 nav {
@@ -31,6 +31,13 @@ nav {
     position: absolute;
     top: 100%;
     left: 0px;
+    opacity: 0%;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+        top: 0.5s;
+    ;
 
 }
 
@@ -49,7 +56,9 @@ nav > ul >li:hover{
 }
 
 .dropdown:hover ul{
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
     
 }
 
@@ -58,3 +67,32 @@ nav > ul >li:hover{
     
 
 }
+
+section img{
+    width: 200px;
+    align-items: center;
+    float: left;
+    padding: 20px;
+}
+
+.imageblock {
+
+    display: flex;
+  
+  }
+  
+   
+  
+  .imageblock > div {
+  
+      display: flex;
+  
+      flex-direction: column;
+  
+      text-align: center;
+  
+  }
+
+  @media screen and (max-width:768px) {
+    
+  }
