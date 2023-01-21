@@ -1,6 +1,6 @@
-img{
+/* img{
     width: 100px;
-}
+} */
 
 nav a{
     color: rgb(127, 127, 6);
@@ -16,7 +16,7 @@ nav > ul{
 
 nav > ul >li{
     padding: 12px;
-    transition: background-color: 0.5s;
+    transition: 0.5s;
 }
 
 nav {
@@ -81,7 +81,16 @@ section img{
   
   }
   
-   
+   #hero{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.model{
+    width: 200px;
+    align-items: center;
+}
   
   .imageblock > div {
   
@@ -94,5 +103,33 @@ section img{
   }
 
   @media screen and (max-width:768px) {
-    
+
   }
+
+/* hero{
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    text-decoration: wavy;
+  }   */
+
+#hero {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.sidebyside{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.sidebyside div{
+    flex: 1;
+}
+
+.sidebyside div img{
+    width: 100%;
+
+}
