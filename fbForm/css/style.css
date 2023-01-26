@@ -37,14 +37,15 @@ header img{
     border-bottom: 2px solid #dddddd;
 }
 
-input[type=text]{
+input[type=text],
+input[type=date]{
     border: 2px solid #dddddd;
     padding: 8px;
     margin: 4px;
     border-radius: 4px;
 }
 
-#textInputContainer{
+#textInputsContainer{
     display: flex;
     flex-wrap: wrap;
     margin: 12px;
@@ -57,5 +58,34 @@ input[type=text]{
 
 #phoneOrEmailInput,
 #passwordInput{
-    width: 100%
+    width: 100%;
+}
+
+#titleBdayPublicInputs{
+    display:flex;
+    margin: 12px
+}
+
+#titleBdayPublicInputs > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    margin-right: 8px;
+}
+
+#titleBdayPublicInputs select,
+#titleBdayPublicInputs input[type=date]{
+    width: 100%;
+}
+
+#titleBdayPublicInputs > div label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#titleBdayPublicInputs input[type=checkbox]{
+    margin: 16px 0px 16px 8px;
 }
