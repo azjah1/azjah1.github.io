@@ -38,7 +38,8 @@ header img{
 }
 
 input[type=text],
-input[type=date]{
+input[type=date],
+select{
     border: 2px solid #dddddd;
     padding: 8px;
     margin: 4px;
