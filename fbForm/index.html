@@ -40,29 +40,30 @@
                             type="text"
                             name="password"
                             placeholder="New Password">
-                        </div>
-                        <div id="titleBdayPublicInput">
+                    </div>
+                        <div id="titleBdayPublicInputs">
                             <label>Preferred Title</label>
                            <select id="titleSelector" name="title">
-                            <option value="" disabled selected>
-                                Select title
-                            </option>
-                            <option value="none">None</option>
-                            <option value="mr">Mr.</option>
-                            <option value="ms">Ms.</option>
-                            <option value="mrs">Mrs.</option>
-                            <option value="sir">Sir</option>
-                            <option value="dr">Dr</option>
+                                <option value="" disabled selected>
+                                    Select title
+                                </option>
+                                <option value="none">None</option>
+                                <option value="mr">Mr.</option>
+                                <option value="ms">Ms.</option>
+                                <option value="mrs">Mrs.</option>
+                                <option value="sir">Sir</option>
+                                <option value="dr">Dr</option>
                            </select>
+                        
+                        <div>
+                                <label>Birthday</label>
+                                <input type="date" name="birthday">
                         </div>
                         <div>
-                            <label>Birthday</label>
-                            <input type="date" name="birthday">
+                                <label>Make Public?</label>
+                                <input type="checkbox" name="isPublic">
                         </div>
-                        <div>
-                            <label>Make Public?</label>
-                            <input type="checkbox" name="isPublic">
-                        </div>
+                    </div>
                     </form>
                 </div>
             </div>
