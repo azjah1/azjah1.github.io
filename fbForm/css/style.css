@@ -151,3 +151,7 @@ input:valid,
 #phoneOrEmailInput:valid{
     border-color: lightgreen;
 }
+
+#signUpInputs{
+    text-align: center;
+}
