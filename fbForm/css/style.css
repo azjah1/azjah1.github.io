@@ -1,13 +1,13 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    background-color: #eeeeee;
+body {
+    background-color: #EEEEEE;
     font-family: sans-serif;
 }
 
-#formContainer{
+#formContainer {
     display: grid;
     grid-template-columns: 1fr 450px 1fr;
     grid-template-areas: 
@@ -15,59 +15,67 @@ body{
         ". content .";
 }
 
-header{
+header {
     grid-area: header;
     text-align: center;
 }
 
-header img{
-    height: 50px;
+header img {
+    width: 250px;
     margin: 24px;
 }
 
-#formContent{
+#formContent {
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0px 0px 16px #cccccc; 
+    box-shadow: 0px 0px 16px #CCCCCC;
     grid-area: content;
     text-align: center;
 }
 
-#formHeader{
-    border-bottom: 2px solid #dddddd;
+#formHeader {
+    border-bottom: 2px solid #DDDDDD;
 }
 
+/* 
+    This code styles the 
+    boxes of inputs 
+*/
 input[type=text],
 input[type=date],
-select{
-    border: 2px solid #dddddd;
+input[type=email],
+input[type=password],
+select,
+#genderInputs > div,
+input[type=submit] {
+    border: 2px solid #DDDDDD;
+    border-radius: 4px;
     padding: 8px;
     margin: 4px;
-    border-radius: 4px;
 }
 
-#textInputsContainer{
+#textInputsContainer {
     display: flex;
     flex-wrap: wrap;
     margin: 12px;
 }
 
 #firstNameInput,
-#lastNameInput{
+#lastNameInput {
     flex: 1;
 }
 
 #phoneOrEmailInput,
-#passwordInput{
+#passwordInput {
     width: 100%;
 }
 
-#titleBdayPublicInputs{
-    display:flex;
-    margin: 12px
+#titleBdayPublicInputs {
+    display: flex;
+    margin: 12px;
 }
 
-#titleBdayPublicInputs > div{
+#titleBdayPublicInputs > div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -77,16 +85,57 @@ select{
 }
 
 #titleBdayPublicInputs select,
-#titleBdayPublicInputs input[type=date]{
+#titleBdayPublicInputs input[type=date] {
     width: 100%;
 }
 
-#titleBdayPublicInputs > div label{
+#titleBdayPublicInputs > div label,
+#genderRadioButtons > label {
     font-size: 12px;
     font-weight: bold;
     margin-left: 5px;
 }
 
-#titleBdayPublicInputs input[type=checkbox]{
+#titleBdayPublicInputs input[type=checkbox] {
     margin: 16px 0px 16px 8px;
+}
+
+#genderRadioButtons {
+    margin: 12px;
+    text-align: left;
+}
+
+#genderInputs {
+    display: flex;
+}
+
+#genderInputs > div {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#formFields p {
+    font-size: 12px;
+    margin: 16px;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: #10a515;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    min-width: 175px;
+}
+
+a {
+    color: #0d77ff;
+    text-decoration: none;
+}
+
+#login {
+    display: block;
+    margin: 24px;
 }
