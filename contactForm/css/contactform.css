@@ -36,7 +36,8 @@ form label {
 
 form input[type=text],
 form textarea,
-form select {
+form select,
+form input[type=date] {
     padding: 12px;
     width: 100%;
     margin-bottom: 16px;
@@ -71,3 +72,17 @@ input:invalid{
         transform: translateX(15px);
     }
 }
+
+@media screen and (max-width:600px){
+    body{
+        background-color: #7d0a0a;
+    }
+    #gridContainer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            ". header  ."
+            ". content .";
+    }
+
+}
+
