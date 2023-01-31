@@ -1,0 +1,19 @@
+#hero1{
+    height: 500px;
+    background-image: url(../assets/branding/wood_bkgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+   display: flex;
+     align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 40px;
+    
+}
