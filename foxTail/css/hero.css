@@ -1,0 +1,20 @@
+#hero1{
+    height: 500px;
+    background-image: url(../assets/branding/istockphoto-1328004520-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+   display: flex;
+     align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: rgb(61, 38, 38);
+    font-family: 'lobster', Times, serif;
+    font-weight: 0px;
+    margin: 40px;
+    
+}
