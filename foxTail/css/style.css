@@ -221,6 +221,5 @@ footer h4 {
 
 .header-top{
   align-items: center;
-  height: 200px;
- 
+  width: auto;
 }
