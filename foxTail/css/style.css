@@ -160,7 +160,7 @@ main {
   border-top:2px solid #e1a177;
 }
 footer {
-  background-color: #f8feff;
+  background-color: #ffffff;
   padding:25px;
   border-top:2px dashed #e1a177;
   box-sizing: border-box;
@@ -191,7 +191,7 @@ footer h4 {
 }
 
 .footer-feet {
-  background-color: #f8feff;
+  background-color: #ffffff;
   height:40px;
   border-top: 2px dashed #e1a177;
 
@@ -219,3 +219,8 @@ footer h4 {
   font-weight: bold;
 }
 
+.header-top{
+  align-items: center;
+  height: 200px;
+ 
+}
