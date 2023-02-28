@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../functionGame"
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "/Users/azjahharvey/Documents/GitHub/azjah1.github.io/fbForm/index.html"
+	}
+}
