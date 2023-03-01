@@ -41,7 +41,7 @@ let hoursLeft = convertToHoursLeft(timeLeft);
 let minutesLeft = convertToMinutesLeft (timeLeft);
 let secondsLeft = convertToSecondsLeft(timeLeft);
 
-countdown.innerHTML
+countdown.innerHTML =
 formatCountdownText (daysLeft, hoursLeft, minutesLeft, secondsLeft);
 
 }
