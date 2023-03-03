@@ -12,13 +12,19 @@ function openLightbox(){
     lightbox.src = this.src;
 }
 
-let coffeelmage = document.getElementById ("coffeeImage");
+let moonImage = document.getElementById ("moonImage");
+let boyImage = document.getElementById ("boyImage");
+let buildingImage = document.getElementById ("buildingImage");
+let posterImage = document.getElementById ("posterImage");
 
-coffeeImage.onclick = openLightbox;
+moonImage.onclick = openLightbox;
+boyImage.onclick = openLightbox;
+buildingImage.onclick = openLightbox;
+posterImage.onclick = openLightbox;
 
 function closeLightbox(){
 lightboxContainer.classList.remove("display");
-lightbox.sre = "";
+lightbox.src = "";
 }
 
 lightboxBackground.onclick=closeLightbox;
