@@ -29,3 +29,14 @@ lightbox.src = "";
 
 lightboxBackground.onclick=closeLightbox;
 lightboxCloser.onclick=closeLightbox;
+
+let galleryImages = document.getElementsByClassName("gallery");
+
+for (let i = 0; i < gallery.length; it ){
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick= openLightbox;
+}
+let closers = document.getElementsByClassName("closer");
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers[i];
+    closer.onclick = closeLightbox;}
