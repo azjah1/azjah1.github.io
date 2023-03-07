@@ -92,3 +92,68 @@
     height: auto;
   }
 }
+
+#heroImage nav img{
+  width: 800px;
+
+}
+
+ul{
+  display: inline-block;
+   padding: 10px;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#new{
+  background-color: red;
+  color: white;
+ font-family:Arial, Helvetica, sans-serif;
+ border-radius: 50px;
+font-size: 10px;
+}
+
+#topNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#heroImage{
+  color: white;
+  height:800px;
+  display: flex;
+  margin: auto;
+  background-image: url(../images/ntflxx.png);
+}
+
+#learnMore{
+  align-items: center;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  justify-content: center;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#heroImage img{
+  width: 200px;
+  padding: 20px;
+}
+
+body{
+  margin: 0px;
+}
+
+#innerNav{
+  display: flexbox;
+  justify-content: space-between;
+}
+
+#midParagraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
