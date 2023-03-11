@@ -82,7 +82,7 @@
   more mobile friendly, by reducing the padding on the container, and also
   configuring the size to be dependent on the width instead of the height.
 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
   #lightboxContainer {
     padding: 12px;
   }
@@ -95,49 +95,23 @@
 
 #heroImage nav img{
   width: 800px;
-
-}
-
-ul{
-  display: inline-block;
-  padding: 10px;
-  align-items: center;
-}
-
-#new{
-  background-color: red;
-  color: white;
-  border-radius: 50px;
-  font-size: 10px;
 }
 
 #topNav{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+}
+
+#topNav img{
+width: 100px;
 }
 
 #heroImage{
   color: white;
   min-height:500px;
   margin: auto;
-  background-image: url(../images/ntflxx.png);
-  box-shadow: inset 0px 0px 100px 75px black;
-}
-
-#learnMore{
-  align-items: center;
-  display: flex;
-  font-size: 1.1rem;
-  font-weight: 700;
-  justify-content: center;
-  color: blue;
-  padding: 10px;
-}
-
-#heroImage img{
-  width: 200px;
-  padding: 20px;
+  background-image: url(../images/backgroundLarge.jpg);
+  box-shadow: inset 0px 0px 100px 75px rgb(5, 1, 37);
 }
 
 body{
@@ -151,14 +125,13 @@ body{
   margin-right: auto;
 }
 
-#naaavContent{
+#navContent{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   max-width: 400px;
   margin: 100px auto;
-  text-align: center;
   font-weight: normal;
 }
 
@@ -173,8 +146,8 @@ body{
 }
 
 .redButton{
-  border: 1px solid red;
-  background-color: red;
+  border: 1px solid rgb(5, 13, 165);;
+  background-color: rgb(5, 13, 165);
   border-radius: 4px;
   color: white;
   padding: 10px 6px;
@@ -186,4 +159,54 @@ form{
   height: 50px;
   display: flex;
   justify-content: center;
+  width: 100px;
+}
+
+body{
+  background-color: rgb(1, 2, 24);
+}
+
+#midParagraph img{
+  width: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#midParagraph{
+  font-size: 12px;
+  text-align: center;
+  color: rgb(184, 184, 184);
+}
+#header{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  color: white;
+}
+
+#line1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#line2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#line3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#longImage{
+  width: 600px;
 }
